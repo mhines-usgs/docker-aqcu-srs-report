@@ -12,7 +12,7 @@
       build: .
       image: aqcu-srs-report-service
       ports:
-        - "7504:7504"
+        - "7503:7503"
       secrets:
         - source: tomcat_ssl_crt
           target: /home/spring/tomcat-wildcard-ssl.crt
